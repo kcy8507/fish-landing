@@ -10,24 +10,25 @@
     <meta property="og:title" content="물고기자리" />
     <meta property="og:description" content="물고기자리는 입질 정보를 스마트기기로 확인할 수 있는 스마트 낚시찌를 개발합니다." />
     <meta property="og:image" content="./img/logo.png" />
-    <meta property="og:url" content="http://www.togetherbluebird.co.kr/" />
+    <meta property="og:url" content="http://" />
 
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:site" content="물고기자리" />
     <meta property="twitter:title" content="물고기자리" />
     <meta property="twitter:description" content="물고기자리는 입질 정보를 스마트기기로 확인할 수 있는 스마트 낚시찌를 개발합니다." />
     <meta property="twitter:image" content="./img/logo.png" />
-    <meta property="twitter:url" content="http://www.togetherbluebird.co.kr/" />
+    <meta property="twitter:url" content="http://" />
     <title>물고기자리</title>
     <link rel="shortcut icon" href="./img/footer__logo.png" />
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="./js/main.js"></script>
+    <script defer src="./js/form-submission-handler.js"></script>
 </head>
 
 <body>
     <nav class="nav">
         <div class="inner">
-            <a href="#">
+            <a href="#main">
                 <div class="nav__logo"><img src="./img/logo.png" alt=""></div>
             </a>
             <div class="nav__content">
@@ -38,18 +39,47 @@
                     <a href="#history">
                         <li>연혁</li>
                     </a>
-                    <a href="#product">
+                    <a href="#smart">
                         <li>스마트낚시찌</li>
                     </a>
-                    <a href="#contact">
+                    <a href="#connect">
                         <li>고객지원</li>
                     </a>
                 </ul>
             </div>
         </div>
     </nav>
-    <nav class="mobile__nav"></nav>
-    <section class="main">
+    <nav class="mobile__nav">
+        <div class="inner">
+            <div class="nav__btn"><img src="./img/nav__btn.png" alt=""></div>
+            <div class="nav__mob_logo"><img src="./img/logo.png" alt=""></div>
+        </div>
+    </nav>
+    <div class="mobile__nav-menu">
+        <div class="inner">
+            <div class="mobile__nav-top">
+                <div class="nav__btn-cls"><img src="./img/nav__btn-cls.png" alt=""></div>
+                <div class="nav__mob_logo"><img src="./img/logo.png" alt=""></div>
+            </div>
+            <!-- </div>
+        <div class="inner"> -->
+            <ul class="menu">
+                <a href="#about">
+                    <li>회사소개</li>
+                </a>
+                <a href="#history">
+                    <li>연혁</li>
+                </a>
+                <a href="#smart">
+                    <li>스마트낚시찌</li>
+                </a>
+                <a href="#connect">
+                    <li>고객지원</li>
+                </a>
+        </div>
+    </div>
+    </div>
+    <section class="main" id="main">
         <div class="inner">
             <div class="main__title-box">
                 <p class="main__title">SMART FLOAT</p>
@@ -57,38 +87,416 @@
                     스마트 낚시찌를 개발합니다.</p>
             </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="inner">
             <div class="about__title-box">
                 <p class="about__title">COMPANY</p>
-                <p class="about__text">세계 최고 수준의 <span class="highlignt">스마트 낚시찌 개발 기술</span></p>
+                <p class="about__text">세계 최고 수준의 <span class="highlight">스마트 낚시찌 개발 기술</span></p>
                 <p class="about__text-bottom">(주)망고소프트는 세계 최고 수준의 스마트 낚시찌와 낚시앱 개발 기술과 특허 보유 및 지속적인 연구 개발을 통해
                     스마트 낚시 생태계를 개발하는데 주력하고 있습니다.</p>
             </div>
             <div class="about__card">
                 <div class="card">
-                    <object data="./img/about__card-1.svg" class="card__icon-1">
-                    </object>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="157.287" height="132.12" class="card__icon-1">
+                        <g data-name="그룹 152">
+                            <g data-name="그룹 142">
+                                <path data-name="패스 303" class="cls-1"
+                                    d="M78.866 132.118c-24.578 0-43.831-9.332-43.831-21.244 0-4.755 3.028-9.211 8.758-12.882l1.935 3.018c-3.241 2.08-7.107 5.476-7.107 9.865 0 9.572 18.43 17.659 40.246 17.659s40.247-8.087 40.247-17.659c0-4.454-3.97-7.889-7.3-9.985l1.91-3.034c5.872 3.7 8.975 8.2 8.975 13.02-.001 11.913-19.255 21.242-43.833 21.242Z" />
+                            </g>
+                            <g data-name="그룹 143">
+                                <path data-name="패스 304" class="cls-1"
+                                    d="M66.711 119.656c-10.4-2.12-16.616-6.576-16.616-11.917h3.585c0 3.35 5.525 6.727 13.748 8.4Z" />
+                            </g>
+                            <g data-name="그룹 144">
+                                <path data-name="패스 305" class="cls-1"
+                                    d="M78.866 120.827v-3.585c14.843 0 25.187-5.008 25.187-9.5h3.585c.001 7.458-12.368 13.085-28.772 13.085Z" />
+                            </g>
+                            <g data-name="그룹 145">
+                                <path data-name="패스 306" class="cls-1"
+                                    d="M126.943 75.368c.262 2.286-1.768 3.068-5.219 5.368a43.807 43.807 0 0 0-7.888 6.775c-.4.433-.938-.025-.749-.624a37.2 37.2 0 0 1 5.879-11.766c2.815-3.378 7.569-3.306 7.977.247Z" />
+                            </g>
+                            <g data-name="그룹 146">
+                                <path data-name="패스 307" class="cls-1"
+                                    d="M146.439 97.376a30.56 30.56 0 0 1-8.359-1.33c-4.184-1.207-10.445-1.366-18.106-.461a2.6 2.6 0 0 1-2.844-1.685 2.985 2.985 0 0 1 1.355-3.486c6.8-4.269 16.545-9.358 24.384-9.358 6.413 0 11.951 2.454 13.779 6.1a5.73 5.73 0 0 1-.654 6.249c-1.97 2.636-5.255 3.971-9.555 3.971Zm-17.449-5.96a36.946 36.946 0 0 1 10.083 1.187c6.817 1.97 11.938 1.481 14.049-1.339a2.2 2.2 0 0 0 .318-2.5c-1.025-2.048-4.986-4.123-10.572-4.123-4.843 0-11.685 2.47-19.5 7.006q2.985-.229 5.622-.231Z" />
+                            </g>
+                            <g data-name="그룹 147">
+                                <path data-name="패스 308" class="cls-1"
+                                    d="M30.775 75.368c-.262 2.286 1.768 3.068 5.219 5.368a43.8 43.8 0 0 1 7.888 6.775c.4.433.938-.025.749-.624a37.2 37.2 0 0 0-5.88-11.766c-2.815-3.378-7.57-3.306-7.976.247Z" />
+                            </g>
+                            <g data-name="그룹 148">
+                                <path data-name="패스 309" class="cls-1"
+                                    d="M11.068 97.469c-4.391 0-7.743-1.362-9.752-4.044a5.833 5.833 0 0 1-.664-6.359c1.864-3.724 7.521-6.225 14.074-6.225 8.022 0 18 5.208 24.952 9.577a3.015 3.015 0 0 1 1.371 3.521 2.62 2.62 0 0 1-2.866 1.7c-7.971-.942-14.217-.784-18.564.474a31.217 31.217 0 0 1-8.551 1.356Zm-6.88-6.194c2.172 2.9 7.432 3.41 14.436 1.388 4.081-1.177 9.543-1.5 16.257-.961-8.073-4.709-15.151-7.276-20.156-7.276-5.739 0-9.811 2.136-10.868 4.246a2.289 2.289 0 0 0 .331 2.6Z" />
+                            </g>
+                            <g data-name="그룹 149">
+                                <path data-name="패스 310" class="cls-1"
+                                    d="M66.44 113.269c-8.4-11.753-14.251-33.947-15.086-44.8-1.016-13.207 1.437-23.106 7.285-29.423 4.7-5.072 11.5-7.645 20.226-7.645h.416c8.723 0 15.529 2.573 20.226 7.645 5.851 6.317 8.3 16.217 7.284 29.423-.8 10.415-6.433 32.077-14.526 43.994l-2.966-2.014c7.749-11.41 13.148-32.228 13.92-42.255.643-8.366.067-19.792-6.341-26.712-3.992-4.311-9.911-6.5-17.6-6.5h-.416c-7.685 0-13.605 2.185-17.6 6.5-6.407 6.919-6.984 18.345-6.341 26.712.705 9.169 6.131 31.376 14.429 42.987Z" />
+                            </g>
+                            <g data-name="그룹 150">
+                                <path data-name="사각형 7008" class="cls-1" d="M67.29 68.45h35.854v3.585H67.29z" />
+                            </g>
+                            <g data-name="그룹 151">
+                                <path data-name="패스 311" class="cls-1"
+                                    d="M84.618 33.193h-3.585V5.552a1.912 1.912 0 0 0-1.442-1.936 1.771 1.771 0 0 0-1.5.384 1.792 1.792 0 0 0-.645 1.377v26.92h-3.585V5.377a5.366 5.366 0 0 1 1.931-4.128A5.408 5.408 0 0 1 80.227.087a5.466 5.466 0 0 1 4.39 5.465Z" />
+                            </g>
+                        </g>
+                    </svg>
                     <p class="card__text">
                         수온과 입질 정보를 스마트 기기로<br>
                         전송하는 스마트 낚시찌 입니다.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="card__icon-2">
-                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="130.922" height="132.12" class="card__icon-2">
+                        <g id="그룹_169" data-name="그룹 169" transform="translate(-801.254 180.21)">
+                            <g id="그룹_153" data-name="그룹 153" transform="translate(810.869 -82.427)">
+                                <path id="사각형_7009" data-name="사각형 7009" class="cls-1"
+                                    transform="rotate(-11.618 3.45 .351)" d="M0 0h3.484v32.979H0z" />
+                            </g>
+                            <g id="그룹_154" data-name="그룹 154" transform="translate(846.868 -68.688)">
+                                <path id="사각형_7010" data-name="사각형 7010" class="cls-1"
+                                    transform="rotate(-78.398 11.382 9.283)" d="M0 0h18.952v3.484H0z" />
+                            </g>
+                            <g id="그룹_155" data-name="그룹 155" transform="translate(806.141 -77.747)">
+                                <path id="패스_312" data-name="패스 312" class="cls-1"
+                                    d="M813.373-75.749c-3.1 0-5.351-.924-6.684-2.746-2.015-2.755-.971-6.3-.845-6.7l3.321 1.054a4.6 4.6 0 0 0 .345 3.6c.642.869 1.942 1.309 3.863 1.309 5.333 0 12.406-6.476 16.164-12.737l2.987 1.792c-4.303 7.17-12.264 14.428-19.151 14.428Z"
+                                    transform="translate(-805.462 91.969)" />
+                            </g>
+                            <g id="그룹_156" data-name="그룹 156" transform="translate(808.802 -92.215)">
+                                <path id="패스_313" data-name="패스 313" class="cls-1"
+                                    d="M840.413-93.978H809.5a1.742 1.742 0 0 1-1.742-1.742v-6.967a1.742 1.742 0 0 1 1.742-1.742h41.8v3.484h-40.06v3.484h29.176Z"
+                                    transform="translate(-807.754 104.429)" />
+                            </g>
+                            <g id="그룹_157" data-name="그룹 157" transform="translate(801.254 -51.574)">
+                                <path id="사각형_7011" data-name="사각형 7011" class="cls-1" d="M0 0h126.568v3.484H0z" />
+                            </g>
+                            <g id="그룹_158" data-name="그룹 158" transform="translate(826.23 -180.157)">
+                                <path id="패스_314" data-name="패스 314" class="cls-1"
+                                    d="m826-104.539-3.239-1.284c16.735-42.213 57.563-66.08 90.192-74.341l.855 3.377c-31.793 8.049-71.556 31.255-87.808 72.248Z"
+                                    transform="translate(-822.763 180.164)" />
+                            </g>
+                            <g id="그룹_159" data-name="그룹 159" transform="translate(818.297 -106.144)">
+                                <path id="패스_315" data-name="패스 315" class="cls-1"
+                                    d="m819.229-100.77-3.3-1.127 3.8-11.122a4.882 4.882 0 0 1 6.076-3.194 4.892 4.892 0 0 1 3.251 6.094l-1.045 3.425-3.331-1.016 1.044-3.424a1.4 1.4 0 0 0-.934-1.746 1.4 1.4 0 0 0-1.746.934Z"
+                                    transform="translate(-815.931 116.424)" />
+                            </g>
+                            <g id="그룹_160" data-name="그룹 160" transform="translate(833.437 -114.244)">
+                                <path id="패스_316" data-name="패스 316" class="cls-1"
+                                    d="M836.994-107.353a8.033 8.033 0 0 1-8.024-8.024 8.032 8.032 0 0 1 8.024-8.024 8.032 8.032 0 0 1 8.024 8.024 8.032 8.032 0 0 1-8.024 8.024Zm0-12.564a4.545 4.545 0 0 0-4.54 4.54 4.545 4.545 0 0 0 4.54 4.54 4.545 4.545 0 0 0 4.54-4.54 4.545 4.545 0 0 0-4.54-4.539Z"
+                                    transform="translate(-828.97 123.4)" />
+                            </g>
+                            <g id="그룹_161" data-name="그룹 161" transform="translate(839.638 -180.21)">
+                                <path id="패스_317" data-name="패스 317" class="cls-1"
+                                    d="M908.145-90.047a25.212 25.212 0 0 1-6.1-.79l.847-3.379c3.62.9 10.348 1.721 14.676-3 3.616-3.947 6.468-12.887-.49-33.063a144.4 144.4 0 0 1-7.32-42.367 24.347 24.347 0 0 1-9.064 7.294c-6.045 2.591-13.862 1.893-17.206 1.421-1.929 6.635-5.857 12.416-10.708 15.672-7.257 4.871-15.747 5.867-19.753 6.054a29.89 29.89 0 0 1-1.685 17.841c-3.225 7.255-14.976 13.168-15.475 13.416l-1.552-3.118c.112-.056 11.129-5.6 13.844-11.714 3.848-8.659 1.015-17.5.985-17.592a1.744 1.744 0 0 1 .264-1.592 1.676 1.676 0 0 1 1.458-.7c.11.013 11.261.353 19.973-5.494 4.522-3.035 8.139-8.7 9.676-15.158a1.74 1.74 0 0 1 2.034-1.3c.1.02 10.039 1.945 16.773-.942 6.667-2.856 10.607-10.617 10.646-10.7a1.738 1.738 0 0 1 2-.906 1.74 1.74 0 0 1 1.3 1.766c-.01.233-.99 23.492 7.106 46.973 7.516 21.8 4.021 31.909-.236 36.554-2.905 3.171-7.107 4.824-11.993 4.824Z"
+                                    transform="translate(-834.31 180.21)" />
+                            </g>
+                            <g id="그룹_162" data-name="그룹 162" transform="translate(881.494 -112.736)">
+                                <path id="패스_318" data-name="패스 318" class="cls-1"
+                                    d="M873.537-101.725A14.635 14.635 0 0 1 870.8-114.2c.719-2.534 2.659-5.961 7.827-7.9l1.223 3.262c-3.055 1.146-4.973 3.026-5.7 5.588-.951 3.356.39 7.137 2.141 9.394Z"
+                                    transform="translate(-870.357 122.102)" />
+                            </g>
+                            <g id="그룹_163" data-name="그룹 163" transform="translate(855.685 -87.472)">
+                                <path id="패스_319" data-name="패스 319" class="cls-1"
+                                    d="M878.349-60.994a32.128 32.128 0 0 1-11.685-2.171 28.861 28.861 0 0 1-18.48-29.028 39.2 39.2 0 0 1 1.346-8.15l3.357.93a35.85 35.85 0 0 0-1.226 7.425 25.43 25.43 0 0 0 16.276 25.581c9.988 3.918 25.055 2.773 37.385-12.2a1.74 1.74 0 0 1 1.345-.635c5.063 0 9.6-.327 13.221-3.9L907.737-87.2a1.737 1.737 0 0 1-1.067-1l-2.535-6.339c-1.9 1.137-4.741 3.467-3.885 6.89l-3.379.845c-1.576-6.3 4.235-10.451 7.528-11.766a1.739 1.739 0 0 1 2.263.971l2.943 7.356 13.825 4.608a1.745 1.745 0 0 1 1.107 1.117 1.746 1.746 0 0 1-.244 1.553c-4.592 6.381-10.552 7.153-16.81 7.206-9.207 10.844-19.828 14.765-29.134 14.765Z"
+                                    transform="translate(-848.13 100.344)" />
+                            </g>
+                            <g id="그룹_164" data-name="그룹 164" transform="translate(860.697 -112.976)">
+                                <path id="패스_320" data-name="패스 320" class="cls-1"
+                                    d="M880.21-68.526a15.716 15.716 0 0 1-3.6-.4 12.052 12.052 0 0 1-7.8-5.762c-2.234-3.725-2.5-8.385-.748-13.122a22.716 22.716 0 0 1 13.8-13.38 1.7 1.7 0 0 1 .974-.037c6.023 1.5 8.6.359 9.446-.221v-5.326a1.741 1.741 0 0 1 .67-1.373 1.736 1.736 0 0 1 1.5-.317 7.514 7.514 0 0 0 5.826-1.482 6.036 6.036 0 0 0 2.127-2.236c-1.259-1.872-10.892-7.556-21.266-6.525-11.866 1.187-20.742 6.356-25.668 14.952l-3.023-1.732c5.51-9.613 15.31-15.382 28.343-16.685 9.731-.985 19.7 3.492 23.377 6.82a4.321 4.321 0 0 1 1.762 3.041c0 2.157-2.146 4.068-3.069 4.788a12.416 12.416 0 0 1-7.091 2.68v4.144a1.744 1.744 0 0 1-.293.966c-.3.452-3.2 4.3-12.971 2.008A19.192 19.192 0 0 0 871.328-86.6c-1.377 3.726-1.212 7.321.469 10.122a8.57 8.57 0 0 0 5.6 4.162c7.536 1.774 17.807-4.669 17.909-4.735l1.872 2.938c-.407.261-8.872 5.587-16.968 5.587Z"
+                                    transform="translate(-852.446 122.308)" />
+                            </g>
+                            <g id="그룹_165" data-name="그룹 165" transform="translate(894.887 -107.142)">
+                                <circle id="타원_18" data-name="타원 18" class="cls-1" cx="1.742" cy="1.742" r="1.742" />
+                            </g>
+                            <g id="그룹_166" data-name="그룹 166" transform="translate(850.323 -115.17)">
+                                <path id="패스_321" data-name="패스 321" class="cls-1"
+                                    d="m846.977-93.253-3.465-.347c1.274-12.74 6.3-25.153 12.217-30.182a1.733 1.733 0 0 1 1.526-.368l16.973 3.983-.8 3.391-16.082-3.774c-4.938 4.802-9.246 16.05-10.369 27.297Z"
+                                    transform="translate(-843.512 124.198)" />
+                            </g>
+                            <g id="그룹_167" data-name="그룹 167" transform="translate(871.278 -98.13)">
+                                <path id="패스_322" data-name="패스 322" class="cls-1"
+                                    d="M867.386-98.26c-1.212 0-3.594-.165-4.947-1.361a2.562 2.562 0 0 1-.872-2.163c.2-2.637 4.817-5.981 7.55-7.739l1.885 2.93a27.252 27.252 0 0 0-5.658 4.618 8.884 8.884 0 0 0 2.491.221l.2 3.479c-.135.006-.357.015-.649.015Z"
+                                    transform="translate(-861.559 109.523)" />
+                            </g>
+                            <g id="그룹_168" data-name="그룹 168" transform="translate(884.814 -89.727)">
+                                <path id="패스_323" data-name="패스 323" class="cls-1"
+                                    d="M874.209-90.511a9.25 9.25 0 0 1-.993-.05l.379-3.463a4 4 0 0 0 2.587-.44c1.425-2.067-1.339-5.582-1.368-5.618l2.7-2.205c.186.224 4.478 5.543 1.54 9.8-1.177 1.7-3.473 1.976-4.845 1.976Z"
+                                    transform="translate(-873.216 102.286)" />
+                            </g>
+                        </g>
+                    </svg>
                     <p class="card__text">
                         스마트 기기의 낚시 어플을 통해 <br>
                         서버로 수온, 입질 정보를 전송합니다.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="card__icon-3">
-                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="138.574" height="126.597" class="card__icon-3">
+                        <g id="그룹_187" data-name="그룹 187" transform="translate(-1013.528 193.571)">
+                            <g id="그룹_170" data-name="그룹 170" transform="translate(1091.294 -193.571)">
+                                <path id="패스_324" data-name="패스 324" class="cls-1"
+                                    d="M1089.384-174.861a9.365 9.365 0 0 1-9.355-9.355 9.365 9.365 0 0 1 9.355-9.355 9.366 9.366 0 0 1 9.355 9.355 9.366 9.366 0 0 1-9.355 9.355Zm0-15.2a5.854 5.854 0 0 0-5.847 5.847 5.854 5.854 0 0 0 5.847 5.847 5.854 5.854 0 0 0 5.847-5.847 5.854 5.854 0 0 0-5.847-5.849Z"
+                                    transform="translate(-1080.029 193.571)" />
+                            </g>
+                            <g id="그룹_171" data-name="그룹 171" transform="translate(1113.22 -179.242)">
+                                <path id="패스_325" data-name="패스 325" class="cls-1"
+                                    d="M1125.091-177.81h-24.557a1.754 1.754 0 0 1-1.754-1.754 1.754 1.754 0 0 1 1.754-1.754h24.557a1.755 1.755 0 0 1 1.754 1.754 1.755 1.755 0 0 1-1.754 1.754Z"
+                                    transform="translate(-1098.779 181.318)" />
+                            </g>
+                            <g id="그룹_172" data-name="그룹 172" transform="translate(1116.729 -189.767)">
+                                <path id="패스_326" data-name="패스 326" class="cls-1"
+                                    d="M1115.227-186.81h-11.694a1.754 1.754 0 0 1-1.754-1.754 1.754 1.754 0 0 1 1.754-1.754h11.694a1.755 1.755 0 0 1 1.754 1.754 1.755 1.755 0 0 1-1.754 1.754Z"
+                                    transform="translate(-1101.779 190.318)" />
+                            </g>
+                            <g id="그룹_173" data-name="그룹 173" transform="translate(1054.319 -147.316)">
+                                <path id="패스_327" data-name="패스 327" class="cls-1"
+                                    d="M1070.475-127.473h-17.235c-2.587-.041-4.831-2.648-4.831-5.58h3.508c0 1.123.895 2.065 1.351 2.072h15.453v-3.508h-9.94a1.754 1.754 0 0 1-1.754-1.754v-11.481a3.124 3.124 0 0 0-1.146-2.314 1.716 1.716 0 0 0-1.374-.448l-.717-3.436a5.189 5.189 0 0 1 4.3 1.162 6.663 6.663 0 0 1 2.442 5.035V-138h9.94a1.755 1.755 0 0 1 1.754 1.754v7.016a1.755 1.755 0 0 1-1.751 1.757Z"
+                                    transform="translate(-1048.41 154.017)" />
+                            </g>
+                            <g id="그룹_174" data-name="그룹 174" transform="translate(1013.528 -121.17)">
+                                <path id="패스_328" data-name="패스 328" class="cls-1"
+                                    d="M1026.2-97.7c-6.108-7.469-10.753-21.4-12.647-31.888a1.758 1.758 0 0 1 .449-1.513 1.72 1.72 0 0 1 1.482-.54l126.3 14.853a1.75 1.75 0 0 1 1.272.8 1.753 1.753 0 0 1 .192 1.487l-5.262 16.236-3.336-1.083 4.6-14.2-121.785-14.323c2.029 9.685 6.176 21.5 11.454 27.954Z"
+                                    transform="translate(-1013.528 131.658)" />
+                            </g>
+                            <g id="그룹_175" data-name="그룹 175" transform="translate(1122.299 -100.184)">
+                                <path id="사각형_7012" data-name="사각형 7012" class="cls-1"
+                                    transform="rotate(-82.632 1.979 1.74)" d="M0 0h3.507v15.086H0z" />
+                            </g>
+                            <g id="그룹_176" data-name="그룹 176" transform="translate(1019.161 -110.357)">
+                                <path id="사각형_7013" data-name="사각형 7013" class="cls-1"
+                                    transform="rotate(-84.373 1.926 1.746)" d="M0 0h3.509v90.748H0z" />
+                            </g>
+                            <g id="그룹_177" data-name="그룹 177" transform="translate(1025.487 -74.054)">
+                                <path id="패스_329" data-name="패스 329" class="cls-1"
+                                    d="M1023.755-84.287V-87.8c5.364 0 10.866-3.282 10.922-3.316a1.751 1.751 0 0 1 1.809 0c.056.034 5.59 3.315 10.93 3.315 5.366 0 10.873-3.283 10.928-3.316a1.754 1.754 0 0 1 .906-.253 1.876 1.876 0 0 1 1.1.377 18.339 18.339 0 0 0 9.618 3.189h.434a18.332 18.332 0 0 0 9.62-3.189 1.881 1.881 0 0 1 1.1-.377 1.754 1.754 0 0 1 .964.289 22.481 22.481 0 0 0 10.554 3.281h.151c5.5 0 10.665-3.257 10.718-3.29a1.765 1.765 0 0 1 .946-.277 1.873 1.873 0 0 1 1.1.377 18.343 18.343 0 0 0 9.62 3.189h.434a18.336 18.336 0 0 0 9.62-3.189 1.874 1.874 0 0 1 1.1-.377 1.773 1.773 0 0 1 .9.251c.055.034 5.59 3.316 10.929 3.318v3.508c-4.936 0-9.76-2.227-11.769-3.281a21.156 21.156 0 0 1-10.781 3.278h-.435a21.134 21.134 0 0 1-10.764-3.265 25.27 25.27 0 0 1-11.81 3.265 25.338 25.338 0 0 1-11.445-3.26 21.135 21.135 0 0 1-10.75 3.26h-.435a21.152 21.152 0 0 1-10.787-3.277c-2.011 1.055-6.834 3.279-11.768 3.28-4.988 0-9.863-2.272-11.834-3.314-1.967 1.042-6.839 3.315-11.825 3.317Z"
+                                    transform="translate(-1023.755 91.367)" />
+                            </g>
+                            <g id="그룹_178" data-name="그룹 178" transform="translate(1025.487 -84.578)">
+                                <path id="패스_330" data-name="패스 330" class="cls-1"
+                                    d="M1023.755-93.287V-96.8c5.364 0 10.866-3.282 10.922-3.316a1.754 1.754 0 0 1 1.809 0c.056.034 5.59 3.315 10.93 3.315 5.366 0 10.873-3.283 10.928-3.316a1.754 1.754 0 0 1 .906-.253 1.876 1.876 0 0 1 1.1.377 18.339 18.339 0 0 0 9.618 3.189h.434a18.332 18.332 0 0 0 9.62-3.189 1.882 1.882 0 0 1 1.1-.377 1.754 1.754 0 0 1 .964.289 22.482 22.482 0 0 0 10.554 3.281h.151c5.5 0 10.665-3.257 10.718-3.29a1.765 1.765 0 0 1 .946-.277 1.873 1.873 0 0 1 1.1.377 18.343 18.343 0 0 0 9.62 3.189h.434a18.336 18.336 0 0 0 9.62-3.189 1.874 1.874 0 0 1 1.1-.377 1.773 1.773 0 0 1 .9.251c.055.034 5.59 3.316 10.929 3.318v3.508c-4.936 0-9.76-2.227-11.769-3.281a21.156 21.156 0 0 1-10.781 3.278h-.435a21.134 21.134 0 0 1-10.764-3.265 25.617 25.617 0 0 1-11.62 3.266h-.189a25.338 25.338 0 0 1-11.445-3.26 21.135 21.135 0 0 1-10.75 3.26h-.435a21.152 21.152 0 0 1-10.787-3.277c-2.011 1.055-6.834 3.279-11.768 3.28-4.988 0-9.863-2.272-11.834-3.314-1.968 1.041-6.84 3.314-11.826 3.316Z"
+                                    transform="translate(-1023.755 100.367)" />
+                            </g>
+                            <g id="그룹_179" data-name="그룹 179" transform="translate(1075.345 -134.14)">
+                                <path id="패스_331" data-name="패스 331" class="cls-1"
+                                    d="M1070.55-128.756a7.062 7.062 0 0 1-4.16-.967l2.078-2.826c.74.529 4.178.193 5.308.082.686-.067 1.259-.119 1.623-.123a19.227 19.227 0 0 0 3.015-.32.742.742 0 0 0 .588-.578c.135-.614.209-1.062.249-1.382a29.894 29.894 0 0 0-3.357-.068 1.673 1.673 0 0 1-1.268-.482 1.755 1.755 0 0 1-.546-1.242l-.029-1.822a19.937 19.937 0 0 1-6.587 2.086l-.069-3.508a17.8 17.8 0 0 0 5.39-1.864 13.151 13.151 0 0 1 2.574-.932 1.758 1.758 0 0 1 1.48.32 1.753 1.753 0 0 1 .679 1.357l.042 2.557c3.333.034 4.039.569 4.329.791 1.162.878 1.068 2.542.539 4.942a4.238 4.238 0 0 1-3.406 3.28 22.585 22.585 0 0 1-3.588.373c-.3 0-.76.051-1.318.106-1.239.121-2.452.22-3.566.22Z"
+                                    transform="translate(-1066.39 142.749)" />
+                            </g>
+                            <g id="그룹_180" data-name="그룹 180" transform="translate(1064.272 -168.193)">
+                                <path id="패스_332" data-name="패스 332" class="cls-1"
+                                    d="M1062.107-153.777a8.436 8.436 0 0 1-1.133-.074 5.853 5.853 0 0 1-4.053-2.217l2.811-2.1a2.516 2.516 0 0 0 1.692.835 5.2 5.2 0 0 0 2.982-.464 2.952 2.952 0 0 0 .529-1.553 1.829 1.829 0 0 1 .048-.3l.464-1.852a1.756 1.756 0 0 1 .75-1.047s.41-.267 1.087-.751c-.088-.279-.191-.589-.278-.855-.638-1.927-1.044-3.271-.89-4.335a33.9 33.9 0 0 0 .336-3.385l3.506.117c-.049 1.494-.295 3.267-.37 3.776a15.535 15.535 0 0 0 .748 2.725c.651 1.966 1.082 3.266-.117 4.157-.641.479-1.166.85-1.532 1.1l-.269 1.066a5.877 5.877 0 0 1-1.85 3.893 7.713 7.713 0 0 1-4.461 1.264Z"
+                                    transform="translate(-1056.921 171.869)" />
+                            </g>
+                            <g id="그룹_181" data-name="그룹 181" transform="translate(1048.903 -176.913)">
+                                <path id="패스_333" data-name="패스 333" class="cls-1"
+                                    d="M1047.287-118.508h-3.508v-22.514c0-4.1 1.679-8 5.136-11.9a17.069 17.069 0 0 1 2.111-1.9c1.668-1.345 2.762-2.3 2.835-3.618a9.9 9.9 0 0 1-2.48-4.124 1.753 1.753 0 0 1-.095-.554c0-.281-.037-6.889.133-9.262.184-2.568 3.219-4.384 5.734-5.455 1.044-.444 6.358-2.575 8.506-.785.413.345 1.148 1 2.013 1.775a68.888 68.888 0 0 0 5.288 4.466l-1.329 3.244c-.9-.347-2.6-1.787-6.3-5.1a118.438 118.438 0 0 0-1.787-1.582c-.9-.153-4.177.558-6.76 2.072-1.416.83-1.836 1.468-1.871 1.624-.138 1.955-.128 7.358-.123 8.682a5.337 5.337 0 0 0 1.694 2.609 1.748 1.748 0 0 1 .8 1.2c.628 3.763-2.08 5.945-4.057 7.539a14.767 14.767 0 0 0-1.685 1.492c-2.863 3.235-4.254 6.367-4.254 9.576Z"
+                                    transform="translate(-1043.779 179.326)" />
+                            </g>
+                            <g id="그룹_182" data-name="그룹 182" transform="translate(1053.872 -170.767)">
+                                <path id="패스_334" data-name="패스 334" class="cls-1"
+                                    d="M1049.783-161.208a1.753 1.753 0 0 1-1.629-1.1 1.752 1.752 0 0 1 .978-2.279l23.388-9.355a1.752 1.752 0 0 1 2.279.978 1.753 1.753 0 0 1-.978 2.279l-23.388 9.355a1.744 1.744 0 0 1-.65.122Z"
+                                    transform="translate(-1048.028 174.071)" />
+                            </g>
+                            <g id="그룹_183" data-name="그룹 183" transform="translate(1086.966 -157.902)">
+                                <path id="패스_335" data-name="패스 335" class="cls-1"
+                                    d="m1136.6-91.538-3.137-1.568c.044-.09 4.493-9.075 4.493-15.588 0-7.824-3.491-12.082-7.185-16.588-2.583-3.152-5.254-6.408-6.758-10.922-3.162-9.484-.667-18.451 1.1-22.955-14.117 2.539-36.654 14.524-45.981 26.962l-2.808-2.106c10.843-14.455 37.063-27.555 51.542-28.761a1.774 1.774 0 0 1 1.617.794 1.753 1.753 0 0 1 .065 1.8c-.061.111-6.124 11.419-2.212 23.156 1.3 3.9 3.652 6.77 6.143 9.807 3.925 4.786 7.981 9.735 7.981 18.813.005 7.347-4.66 16.758-4.86 17.156Z"
+                                    transform="translate(-1076.328 163.069)" />
+                            </g>
+                            <g id="그룹_184" data-name="그룹 184" transform="translate(1093.551 -135.795)">
+                                <path id="사각형_7014" data-name="사각형 7014" class="cls-1"
+                                    transform="rotate(-44.523 3.005 1.23)" d="M0 0h3.508v4.169H0z" />
+                            </g>
+                            <g id="그룹_185" data-name="그룹 185" transform="translate(1067.321 -152.109)">
+                                <path id="패스_336" data-name="패스 336" class="cls-1"
+                                    d="M1064.621-140.706a24.576 24.576 0 0 0-4.671-11.538 1.757 1.757 0 0 1-.4-1.387l.634-4.483 3.474.491-.53 3.751a28.97 28.97 0 0 1 4.969 12.66Z"
+                                    transform="translate(-1059.528 158.115)" />
+                            </g>
+                            <g id="그룹_186" data-name="그룹 186" transform="translate(1072.709 -121.65)">
+                                <path id="사각형_7015" data-name="사각형 7015" class="cls-1"
+                                    transform="rotate(-3.27 3.506 .1)" d="M0 0h3.507v8.096H0z" />
+                            </g>
+                        </g>
+                    </svg>
                     <p class="card__text">
                         낚시 빅데이터를 가공해서 낚시인에게<br>
                         포인트와 조황 정보를 제공합니다.
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="history" id="history">
+        <div class="inner">
+            <div class="history__title-box">
+                <p class="history__title">HISTORY</p>
+                <p class="history__text">차세대 스마트 낚시 생태계 개발하는</p>
+                <p class="history__highlight">(주)망고소프트는 또 한 번 앞서 갑니다.</sp>
+            </div>
+            <div class="history__content-box">
+                <div class="history__content-1">
+                    <table class="content__history">
+                        <tr>
+                            <td class="content__top">2020.09</td>
+                            <td class="content__top">2020.09</td>
+                        </tr>
+                        <tr>
+                            <td class="content__bottom">추경예비창업패키지 선정(전남 1위)
+                                및 최우수 졸업</td>
+                            <td class="content__bottom">개인사업자 등록</td>
+                        </tr>
+                        <tr>
+                            <td class="content__top">2020.10</td>
+                            <td class="content__top">2020.11</td>
+                        </tr>
+                        <tr>
+                            <td class="content__bottom">위치기반서비스사업 신고</td>
+                            <td class="content__bottom">법인 전환</td>
+                        </tr>
+                        <tr>
+                            <td class="content__top">2020.12</td>
+                            <td class="content__top">2021.01</td>
+                        </tr>
+                        <tr>
+                            <td class="content__bottom">연구개발전담부서 등록</td>
+                            <td class="content__bottom">벤처기업 인정</td>
+                        </tr>
+                        <tr>
+                            <td class="content__top">2021.03</td>
+                            <td class="content__top">2021.04</td>
+                        </tr>
+                        <tr>
+                            <td class="content__bottom">소프트웨어 사업자 확인</td>
+                            <td class="content__bottom">청년창업사관학교 선정</td>
+                        </tr>
+                        <tr>
+                            <td class="content__top">2021.06</td>
+                            <td class="content__top">2021.08</td>
+                        </tr>
+                        <tr>
+                            <td class="content__bottom">소상공인 역량강화 공급기업 선정</td>
+                            <td class="content__bottom">게임제작업자 등록, 통신판매업 신고</td>
+                        </tr>
+                        <tr>
+                            <td class="content__top">2021.10</td>
+                            <td class="content__top">2022.03</td>
+                        </tr>
+                        <tr>
+                            <td class="content__bottom">코엑스 유교전, 구미 전국체전, 전남지식
+                                재산페스티벌 전시</td>
+                            <td class="content__bottom">산업디자인전문회사 신고</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="history__content-2">
+                    <p class="content__title">
+                        mangosoft
+                    </p>
+                    <p class="content__content">
+                        2020 - 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="smart" id="smart">
+        <div class="inner">
+            <div class="smart__title-box">
+                <p class="smart__title">SMART FLOAT</p>
+                <p class="smart__text">차세대 스마트 낚시 생태계를 개발하는 기업, <br class="mob_br"><span
+                        class="smart__highlight">(주)망고소프트는 또 한 번 앞서
+                        갑니다.</span></p>
+            </div>
+            <div class="smart__content-box">
+                <div class="content-box">
+                    <p class="content-box__title">6축 가속 자이로 센서
+                        블루투스 모듈 탑재</p>
+                    <p class="content-box__content">낚시찌의 정밀한 움직임 인식
+                        스마트 기기로 입질 정보 전송</p>
+                </div>
+                <div class="content-box">
+                    <p class="content-box__title">스마트기기로
+                        입질 정보 전송</p>
+                    <p class="content-box__content">입질 시 스마트기기 진동 알림
+                        입질이 온 낚시찌 표시</p>
+                </div>
+                <div class="content-box">
+                    <p class="content-box__title">GPS와 결합된
+                        입질 정보 제공</p>
+                    <p class="content-box__content">낚시앱을 통해 입질 GPS정보 제공
+                        실시간으로 GPS정보 확인 가능</p>
+                </div>
+                <div class="content-box">
+                    <p class="content-box__title">해양
+                        공공데이터 제공</p>
+                    <p class="content-box__content">날씨, 수온, 파도 등 정보 제공
+                        해양선 정보 제공</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video" id="video">
+        <div class="inner">
+            <div class="video__title-box">
+                <p class="video__title">SMART FLOAT</p>
+                <p class="video__text">차세대 스마트 낚시 생태계를 개발하는 기업, <br class="mob_br"><span
+                        class="smart__highlight">(주)망고소프트는 또 한 번 앞서
+                        갑니다.</span></p>
+            </div>
+            <div class="video__content"></div>
+        </div>
+    </section>
+    <section class="connect" id="connect">
+        <div class="inner">
+            <div class="connect__title-box">
+                <p class="connect__title">CONNECT US</p>
+                <p class="connect__text">고객 지원 온라인 문의</p>
+                <p class="connect__bottom">스마트 낚시찌에 관한 정보가 필요하거나 구입을 원하시면 언제든지 연락주시면 됩니다.</p>
+            </div>
+
+            <div class="connect__content">
+                <div class="connect__content-address">
+                    <table class="address">
+                        <tr>
+                            <td>Email</td>
+                            <td>hdbahda@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Tel</td>
+                            <td>+82 10 2608 0217</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>전라남도 여수시 덕충2길 2, 2층 망고소프트</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="connect__content-email">
+                    <form class="form-elements gform" method="POST"
+                        action="https://script.google.com/macros/s/AKfycbw11RAcMaMKd8flYZZrEnIL9kbRVksw-862Rnvx/exec">
+                        <div class="contact_form">
+                            <fieldset class="form-elements__box">
+                                <label for="email"><span>이메일</span></label>
+                                <input id="email" name="email" placeholder=" " required />
+                            </fieldset>
+                            <fieldset class="form-elements__box">
+                                <label for="telnum"><span>휴대전화</span></label>
+                                <input id="telnum" name="telnum" placeholder=" " required />
+                            </fieldset>
+                            <fieldset class="form-elements__box message__box">
+                                <label for="message"><span>문의내용</span></label>
+                                <textarea id="message" name="message" rows="10"
+                                    placeholder="업체명:&#13;&#10;예산:&#13;&#10;문의사항" required></textarea>
+                            </fieldset>
+                            <fieldset class="pure-group honeypot-field" style="display: none">
+                                <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden
+                                    text field; must be
+                                    empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                                <input id="honeypot" type="text" name="honeypot" value="" />
+                            </fieldset>
+                        </div>
+                        <button class="button-success" id="sendBtn">문의하기</button>
+                        <div class="thankyou_message" id="thankyou_message">
+                            <p>연락주셔서 감사합니다. 빠른 시일 내에 답변 드리겠습니다.</p>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -126,6 +534,8 @@
             </a>
         </div>
     </footer>
+    <script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script
 </body>
 
 </html>
