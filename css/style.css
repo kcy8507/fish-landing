@@ -24,6 +24,7 @@ html {
 
 body {
   position: relative;
+  overflow: hidden;
   color: #3b3b3b;
   font-family: "Pretendard";
   font-size: 1.8rem;
@@ -583,6 +584,7 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .mobile__nav-menu .nav__btn-cls {
     cursor: pointer;
@@ -642,11 +644,23 @@ textarea {
     height: 4.2rem;
   }
   .about__card .card {
-    width: calc(50% - 2rem);
+    width: 43.8rem;
     height: 43.8rem;
   }
+  .about__card {
+    margin-top: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about__card .card:nth-child(1) {
+    margin-top: 0rem;
+  }
+  .about__card .card:nth-child(2) {
+    margin-top: 2rem;
+  }
   .about__card .card:nth-child(3) {
-    margin-top: 5.1rem;
+    margin-top: 2rem;
   }
   .history__content-box {
     flex-direction: column;
@@ -741,6 +755,10 @@ textarea {
     width: 12.3rem;
     height: 2.9rem;
   }
+  .mobile__nav-menu .nav__mob_logo img {
+    width: 12.3rem;
+    height: 2.9rem;
+  }
   .main__title {
     font-size: 3.8rem;
   }
@@ -760,24 +778,9 @@ textarea {
     line-height: 2.6rem;
     margin-top: 3.5rem;
   }
-  .about__card {
-    margin-top: 5rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .about__card .card:nth-child(1) {
-    margin-top: 0rem;
-  }
-  .about__card .card:nth-child(2) {
-    margin-top: 2rem;
-  }
-  .about__card .card:nth-child(3) {
-    margin-top: 2rem;
-  }
   .about__card .card {
-    width: 43.8rem;
-    height: 43.8rem;
+    width: 33.8rem;
+    height: 33.8rem;
   }
   .about__card .card__text {
     font-size: 1.5rem;
@@ -909,13 +912,57 @@ textarea {
     font-size: 1.6rem;
     margin-top: 4.3rem;
   }
+  .highlight {
+    font-weight: 800;
+    display: block;
+    margin-top: 0.6rem;
+  }
+  .history__highlight {
+    font-size: 2.4rem;
+    margin-top: 0.4rem;
+    line-height: 3.2rem;
+  }
+  .smart__text {
+    font-size: 2.1rem;
+    margin-top: 1.4rem;
+  }
+  .smart__highlight {
+    font-size: 2.1rem;
+    /* margin-top: 0.5rem; */
+    line-height: 3.1rem;
+  }
+  .video__text {
+    font-size: 2.1rem;
+    margin-top: 1.4rem;
+    line-height: 3.1rem;
+  }
+  .footer__list {
+    justify-content: space-around;
+  }
+  .footer__address {
+    margin-top: 4.2rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 100;
+  }
+  .footer__copy {
+    margin-top: 2.3rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 100;
+  }
 }
 @media screen and (max-width: 375px) {
   .inner {
     max-width: calc(100% - 1rem);
   }
   .about__card .card {
-    width: 34.4rem;
-    height: 34.4rem;
+    width: 28rem;
+    height: 28rem;
+  }
+  .about__card .card__text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 0.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
