@@ -396,10 +396,18 @@ body {
   font-weight: 800;
 }
 .video__content {
-  width: 100%;
-  height: 54.8rem;
-  background-color: white;
   margin-top: 7.6rem;
+  position: relative;
+  padding-top: 56%;
+  width: 100%;
+  height: 0;
+}
+.video__content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .connect {

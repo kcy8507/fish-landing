@@ -433,10 +433,19 @@ body {
     font-weight: 800;
   }
   &__content {
-    width: 100%;
-    height: 54.8rem;
-    background-color: white;
     margin-top: 7.6rem;
+
+    position: relative;
+    padding-top: 56%;
+    width: 100%;
+    height: 0;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 // --------------------video end----------------------
