@@ -388,7 +388,7 @@ body {
 .video__text {
   font-size: 3rem;
   margin-top: 2.8rem;
-  font-weight: 600;
+  font-weight: 300;
 }
 .video__highlight {
   font-size: 3rem;
@@ -403,6 +403,13 @@ body {
   height: 0;
 }
 .video__content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video__content video {
   position: absolute;
   top: 0;
   left: 0;
