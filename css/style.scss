@@ -1,5 +1,5 @@
 @import url(./reset.css);
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
 @font-face {
   font-family: "KOHIBaeumOTF";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff") format("woff");
@@ -924,6 +924,7 @@ textarea {
   .smart__text {
     font-size: 2.4rem;
     margin-top: 1.4rem;
+    line-height: 3.1rem;
   }
   .smart__highlight {
     font-size: 2.4rem;
