@@ -146,8 +146,8 @@ body {
   flex-wrap: wrap;
 }
 .about__card .card {
-  width: calc(33.3333333333% - 4rem);
-  height: 42rem;
+  width: 35rem;
+  height: 35rem;
   border: 1px solid #2b4d84;
   border-radius: 100%;
   display: flex;

@@ -161,8 +161,10 @@ body {
     // align-items: center;
     .card {
       // width: 42rem;
-      width: calc(100% / 3 - 4rem);
-      height: 42rem;
+      // width: calc(100% / 3 - 4rem);
+      // height: 42rem;
+      width: 35rem;
+      height: 35rem;
       border: 1px solid $main__point-color;
       border-radius: 100%;
       display: flex;
